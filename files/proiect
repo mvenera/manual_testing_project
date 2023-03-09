@@ -48,7 +48,7 @@ QA tester: Venera Nicolici
 #### 1.1.3 Exit criteria defined
 
 
-* maximum 15 unresolved bugs with high priority
+* maximum 15 unresolved bugs 
 * all tests have been executed
 * all resolved bugs have been re-tested and approved by the QA team
 * deadline was reached
@@ -112,7 +112,7 @@ are boundary value analysis and use case testing.
 **Test cases:**
 ![image](https://github.com/mvenera/manual_testing_project/blob/main/files/images/test-cases.png)
 
-The test cases with steps can be viewed here: [test_cases.pdf](https://github.com/mvenera/manual_testing_project/blob/main/files/test-cases.pdf)
+The test cases with steps can be viewed here: [test-cases.pdf](https://github.com/mvenera/manual_testing_project/blob/main/files/test-cases.pdf)
 
 For the API, the following checklist was generated:
 
@@ -130,7 +130,7 @@ The following elements are needed to be ready before the test execution phase be
 ## 1.6 Test Execution
 
 * Test cases are executed on the created test Cycle summary: [cycle_summary_execution.pdf](https://github.com/mvenera/manual_testing_project/blob/main/files/Cycle_Summary-Executions.pdf)
-* Bugs have been created based on the failed tests, plus one for reviewing the specifications. The complete bug reports can be found here: [created_bugs.pdf]()
+* Bugs have been created based on the failed tests, plus one for reviewing the specifications. The complete bug reports can be found here: [created_bugs.pdf](https://github.com/mvenera/manual_testing_project/blob/main/files/BUGS.pdf)
     *  [Specifications] The documentation is not clear and complete
     *  [Data] For "Guest checkout" option, the "Continue" button does not save the account when all fields are completed
     *  [Data] For "Guest checkout" option, the "Continue" button does not save the account when all mandatory fields are completed
@@ -147,14 +147,19 @@ The following elements are needed to be ready before the test execution phase be
     *  [Invalid data] Product added to cart when a decimal number is entered for quantity
     *  [Mandatory field] No value in "Qty" field returns a validation message
 
+* API tests are executed based on the checklist. The collection used can be found here: [JSON file with the collection of requests created for Booking API](.....................)
+* Full regression testing is needed after the bugs are fixed
+
 ## 1.7 Test Completion
 
-* Exit criteria was evaluated and passed
-* The traceability matrix was generated and can be found here: [Traceability_matrix.csv]()
-* Test execution chart was generated, the final report shows.... -> describe the final report
 
--> enter here test execution report/chart
+* As the Exit criteria were met and satisfied as mentioned in the appropriate section, this feature is suggested to ‘Go Live’ by the Testing team
+* The traceability matrix was generated and can be found here: [Traceability_matrix.csv](https://github.com/julai215/itf_final_project_example_and_portofolio/blob/main/Final%20Project/Traceability_matrix.xlsx)
+* Test execution chart was generated, the final report shows that a number 5 tests have failed of a total of 23 
+* A number of 23 test cases were planned for execution and all of them were executed
+* A number of 5 total bugs were found, from which the priority is: 1 is high, 4 are medium and 1 is low
 
+![image](https://user-images.githubusercontent.com/99291143/163691281-5ccb211d-c101-40ea-bb64-1a4f65f8e1b1.png)
 # 2 SQL section
 
 
