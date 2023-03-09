@@ -15,7 +15,7 @@ Tools used: JIRA, Zephyr Squad, Postman, MySQL Workbench.
 The below Epic was created in JIRA and describes the functional specifications of the Shopping Cart and Checkout modules within the Brosing the Front Store Documentation, on which the final project is based.
 
 As a new customer I want to be able to place an order to make an online shopping.
-![image](https://github.com/mvenera/manual_testing_project/blob/main/images/epic.png)
+![image](https://github.com/mvenera/manual_testing_project/blob/main/files/images/epic.png)
 
 Exclusions:
 From the Shopping cart page:
