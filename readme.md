@@ -52,7 +52,7 @@ QA tester: Venera Nicolici
 #### 1.1.3 Exit criteria defined
 
 
-* maximum 15 unresolved bugs with high priority
+* maximum 15 unresolved bugs
 * all tests have been executed
 * all resolved bugs have been re-tested and approved by the QA team
 * deadline was reached
