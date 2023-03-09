@@ -1,0 +1,195 @@
+# Release notes - OpenCart - Release 1 - Place an order
+
+### Bug
+
+[OP-93](https://op3ncar7.atlassian.net/browse/OP-93) \[Mandatory field\] No value in "Qty" field returns a validation message
+
+[OP-94](https://op3ncar7.atlassian.net/browse/OP-94) \[Invalid data\] Product added to cart when a decimal number is entered for quantity
+
+[OP-95](https://op3ncar7.atlassian.net/browse/OP-95) \[Invalid data\] Validation message of a product added to cart, when a decimal number is entered for quantity
+
+[OP-97](https://op3ncar7.atlassian.net/browse/OP-97) \[Invalid data\] Validation message when letters are entered for quantity
+
+[OP-98](https://op3ncar7.atlassian.net/browse/OP-98) \[Invalid data\] Validation message when special characters are entered for quantity
+
+[OP-99](https://op3ncar7.atlassian.net/browse/OP-99) \[Invalid data\] The product is added to cart even when the delivery date is in the past
+
+[OP-100](https://op3ncar7.atlassian.net/browse/OP-100) \[Invalid data\] Validation message when "0" value is entered for quantity
+
+[OP-101](https://op3ncar7.atlassian.net/browse/OP-101) \[UI\] The shopping cart black button has invisible text when mouse hover
+
+[OP-102](https://op3ncar7.atlassian.net/browse/OP-102) \[Data\] "Address 1" field does not accept 128 characters, containing special characters
+
+[OP-103](https://op3ncar7.atlassian.net/browse/OP-103) \[Data\] "City" field does not accept maximum 128 characters
+
+[OP-104](https://op3ncar7.atlassian.net/browse/OP-104) \[Data\] "Password" field does not accept maximum 20 characters
+
+[OP-105](https://op3ncar7.atlassian.net/browse/OP-105) \[Data\] For "Guest checkout" option, the "Continue" button does not save the account when all mandatory fields are completed
+
+[OP-106](https://op3ncar7.atlassian.net/browse/OP-106) \[Data\] For "Guest checkout" option, the "Continue" button does not save the account when all fields are completed
+
+[OP-107](https://op3ncar7.atlassian.net/browse/OP-107) \[Specifications\] The documentation is not clear and complete
+
+### Task
+
+[OP-16](https://op3ncar7.atlassian.net/browse/OP-16) \[Task 3\] Payment and shipping address
+
+[OP-17](https://op3ncar7.atlassian.net/browse/OP-17) \[Task 4\] Shipping and payment method
+
+[OP-18](https://op3ncar7.atlassian.net/browse/OP-18) \[Task 5\] Confirm order
+
+[OP-19](https://op3ncar7.atlassian.net/browse/OP-19) \[Task 1\] Product page and shopping cart page
+
+[OP-20](https://op3ncar7.atlassian.net/browse/OP-20) \[Task 2\] Checkout options
+
+### Story
+
+[OP-14](https://op3ncar7.atlassian.net/browse/OP-14) \[Story 1\] Adding to shopping cart
+
+[OP-15](https://op3ncar7.atlassian.net/browse/OP-15) \[Story 2\] Checkout
+
+### Test Case
+
+[OP-23](https://op3ncar7.atlassian.net/browse/OP-23) \[S9\] Verify that quantity field in the product page is a mandatory field in order to add product to the cart
+
+[OP-24](https://op3ncar7.atlassian.net/browse/OP-24) \[S1\] Verify that when a positive integer is entered for quantity, the shopping cart contains the specified amount of product
+
+[OP-25](https://op3ncar7.atlassian.net/browse/OP-25) \[S1\] Verify that multiple different products can be added to cart
+
+[OP-26](https://op3ncar7.atlassian.net/browse/OP-26) \[S2\] Verify that a product is not added to the shopping cart when a decimal number is entered for quantity
+
+[OP-27](https://op3ncar7.atlassian.net/browse/OP-27) \[S2\] Verify that a product is not added to the shopping cart when a negative number is entered for quantity 
+
+[OP-28](https://op3ncar7.atlassian.net/browse/OP-28) \[S2\] Verify that a product is not added to the shopping cart when letters are entered for quantity
+
+[OP-29](https://op3ncar7.atlassian.net/browse/OP-29) \[S2\] Verify that a product is not added to the shopping cart when special characters are entered for quantity
+
+[OP-30](https://op3ncar7.atlassian.net/browse/OP-30) \[S9\] Verify that a product is not added to the shopping cart when an available option is not selected from the drop-down list
+
+[OP-31](https://op3ncar7.atlassian.net/browse/OP-31) \[S7\] Verify that a product is not added to the shopping cart when the delivery date is in the past
+
+[OP-32](https://op3ncar7.atlassian.net/browse/OP-32) \[S3\] Verify that shopping cart is updated correspondingly when the quantity is modified to another integer
+
+[OP-33](https://op3ncar7.atlassian.net/browse/OP-33) \[S3\] Verify that modifying the quantity in cart to “0” for a product leads to deleting the product from shopping cart
+
+[OP-34](https://op3ncar7.atlassian.net/browse/OP-34) \[S2\] Verify that a product is not added to the shopping cart when “0” value is entered for quantity
+
+[OP-35](https://op3ncar7.atlassian.net/browse/OP-35) \[S3\] Verify that deleting a product from the shopping cart modifies the cart accordingly
+
+[OP-36](https://op3ncar7.atlassian.net/browse/OP-36) \[S12\] Verify that the shopping cart remains the same when the page is refreshed \(F5 key\)
+
+[OP-37](https://op3ncar7.atlassian.net/browse/OP-37) \[S4\] Verify that the shopping cart remains the same when leaving the page and then returning
+
+[OP-38](https://op3ncar7.atlassian.net/browse/OP-38) \[S8\] Verify that for every product in shopping cart is applied an Eco Tax of 2$
+
+[OP-39](https://op3ncar7.atlassian.net/browse/OP-39) \[S8\] Verify that VAT is calculated as 20% of Sub-total price
+
+[OP-40](https://op3ncar7.atlassian.net/browse/OP-40) \[S8\] Verify that Total is calculated as sum of Sub-total, Eco Tax, and VAT
+
+[OP-41](https://op3ncar7.atlassian.net/browse/OP-41) \[S8\] Verify that Total is calculated as sum of Unit Price multiplied by the number of every product in cart
+
+[OP-42](https://op3ncar7.atlassian.net/browse/OP-42) \[S11\] Verify that pressing the “Checkout” button from the bottom of the shopping page lands on Checkout page
+
+[OP-43](https://op3ncar7.atlassian.net/browse/OP-43) \[S11\] Verify that pressing the “Checkout” button from the header lands on Checkout page
+
+[OP-44](https://op3ncar7.atlassian.net/browse/OP-44) \[S11\] Verify that pressing the “Checkout” button from the shopping cart black button lands on Checkout page
+
+[OP-45](https://op3ncar7.atlassian.net/browse/OP-45) \[S11\] Verify that by checking “Guest account” radio button, the password field is no longer required
+
+[OP-46](https://op3ncar7.atlassian.net/browse/OP-46) \[S11\] Verify that by checking “Guest account” radio button, the acceptance of the Privacy Policy is no longer required
+
+[OP-47](https://op3ncar7.atlassian.net/browse/OP-47) \[S9\] Verify that “First Name” field is a mandatory field
+
+[OP-48](https://op3ncar7.atlassian.net/browse/OP-48) \[S10\] Verify that “First Name” field accepts every type of characters
+
+[OP-49](https://op3ncar7.atlassian.net/browse/OP-49) \[S10\] Verify that “First Name” field accepts maximum 32 characters
+
+[OP-50](https://op3ncar7.atlassian.net/browse/OP-50) \[S9\] Verify that “Last Name” field is a mandatory field
+
+[OP-51](https://op3ncar7.atlassian.net/browse/OP-51) \[S10\] Verify that “Last Name” field accepts every type of characters
+
+[OP-52](https://op3ncar7.atlassian.net/browse/OP-52) \[S10\] Verify that “Last Name” field accepts maximum 32 characters
+
+[OP-53](https://op3ncar7.atlassian.net/browse/OP-53) \[S9\] Verify that “E-mail” field is a mandatory field
+
+[OP-54](https://op3ncar7.atlassian.net/browse/OP-54) \[S10\] Verify that “E-mail” field accepts only e-mail format
+
+[OP-55](https://op3ncar7.atlassian.net/browse/OP-55) \[S9\] Verify that “Address 1” field is a mandatory field
+
+[OP-56](https://op3ncar7.atlassian.net/browse/OP-56) \[S10\] Verify that “Address 1” field accepts every type of characters
+
+[OP-57](https://op3ncar7.atlassian.net/browse/OP-57) \[S10\] Verify that “Address 1” field accepts maximum 128 characters
+
+[OP-58](https://op3ncar7.atlassian.net/browse/OP-58) \[S10\] Verify that “Address 1” field does not accept less then 3 characters
+
+[OP-59](https://op3ncar7.atlassian.net/browse/OP-59) \[S9\] Verify that “City” field is a mandatory field
+
+[OP-60](https://op3ncar7.atlassian.net/browse/OP-60) \[S10\] Verify that “City” field accepts every type of characters
+
+[OP-61](https://op3ncar7.atlassian.net/browse/OP-61) \[S10\] Verify that “City” field accepts maximum 128 characters
+
+[OP-62](https://op3ncar7.atlassian.net/browse/OP-62) \[S10\] Verify that “City” field does not accept less then 2 characters
+
+[OP-63](https://op3ncar7.atlassian.net/browse/OP-63) \[S9\] Verify that “City” field is a mandatory field
+
+[OP-64](https://op3ncar7.atlassian.net/browse/OP-64) \[S10\] Verify that “Post Code” field accepts every type of characters
+
+[OP-65](https://op3ncar7.atlassian.net/browse/OP-65) \[S10\] Verify that “Post Code” field accepts maximum 10 characters
+
+[OP-66](https://op3ncar7.atlassian.net/browse/OP-66) \[S10\] Verify that “Post Code” field does not accept less then 2 characters
+
+[OP-67](https://op3ncar7.atlassian.net/browse/OP-67) \[S9\] Verify that “Country” field is a mandatory field
+
+[OP-68](https://op3ncar7.atlassian.net/browse/OP-68) \[S9\] Verify that in “Country” field a value can be selected
+
+[OP-69](https://op3ncar7.atlassian.net/browse/OP-69) \[S9\] Verify that “Region / State” field is a mandatory field
+
+[OP-70](https://op3ncar7.atlassian.net/browse/OP-70) \[S9\] Verify that in “Region / State” field a value can be selected
+
+[OP-71](https://op3ncar7.atlassian.net/browse/OP-71) \[S9\] Verify that “Password” field is a mandatory field
+
+[OP-72](https://op3ncar7.atlassian.net/browse/OP-72) \[S10\] Verify that “Password” field accepts every type of characters
+
+[OP-73](https://op3ncar7.atlassian.net/browse/OP-73) \[S10\] Verify that “Password” field accepts maximum 20 characters
+
+[OP-74](https://op3ncar7.atlassian.net/browse/OP-74) \[S10\] Verify that “Password” field does not accept less then 4 characters
+
+[OP-75](https://op3ncar7.atlassian.net/browse/OP-75) \[S9\] Verify that acceptance of the Privacy Policy is a mandatory field
+
+[OP-76](https://op3ncar7.atlassian.net/browse/OP-76) \[S10\] Verify that “Company” is not a mandatory field 
+
+[OP-77](https://op3ncar7.atlassian.net/browse/OP-77) \[S10\] Verify that “Address 2” is not a mandatory field
+
+[OP-78](https://op3ncar7.atlassian.net/browse/OP-78) Verify that whishing to subscribe to the newsletter is not a mandatory field 
+
+[OP-79](https://op3ncar7.atlassian.net/browse/OP-79) \[S11\] Check that by not checking the box “My delivery and billing address are the same” the form expends and wait to enter similar data as in the “Payment address” area
+
+[OP-80](https://op3ncar7.atlassian.net/browse/OP-80) \[S5\] Verify that after entering data in all mandatory fields and pressing the “Continue” button, the account is saved \(for “Register Account” option\)
+
+[OP-81](https://op3ncar7.atlassian.net/browse/OP-81) \[S5\] Verify that after entering data in all mandatory fields and pressing the “Continue” button, the account is saved \(for “Guest Checkout” option\)
+
+[OP-82](https://op3ncar7.atlassian.net/browse/OP-82) \[S6\] Verify that after entering data in all fields and pressing the “Continue” button, the account is saved \(for “Register Account” option\)
+
+[OP-83](https://op3ncar7.atlassian.net/browse/OP-83) \[S6\] Verify that after entering data in all fields and pressing the “Continue” button, the account is saved \(for “Guest Checkout” option\)
+
+[OP-84](https://op3ncar7.atlassian.net/browse/OP-84) \[S9\] Verify that “Shipping Method” field is a mandatory field
+
+[OP-85](https://op3ncar7.atlassian.net/browse/OP-85) \[S8\] Verify that when an option is selected for the shipping method, Shipping Rate is added to total price
+
+[OP-86](https://op3ncar7.atlassian.net/browse/OP-86) \[S9\] Verify that “Payment Method” field is a mandatory field
+
+[OP-87](https://op3ncar7.atlassian.net/browse/OP-87) \[S6\] Verify that by pressing the “Confirm order” button, after all fields are filled with valid data, an order is be created
+
+[OP-88](https://op3ncar7.atlassian.net/browse/OP-88) \[S10\] Verify that “Comment” is not a mandatory field 
+
+[OP-89](https://op3ncar7.atlassian.net/browse/OP-89) \[S12\] Verify that TAB key navigates through fields and buttons on every page 
+
+[OP-90](https://op3ncar7.atlassian.net/browse/OP-90) \[S12\] Verify that pressing ENTER will execute the current button or the current field
+
+[OP-91](https://op3ncar7.atlassian.net/browse/OP-91) \[S12\] Verify that using ESC key doesn’t do anything on any page
+
+[OP-92](https://op3ncar7.atlassian.net/browse/OP-92) \[S11\] Verify that when a link is clicked, it will open the corresponding window or page
+
+### Epic
+
+[OP-1](https://op3ncar7.atlassian.net/browse/OP-1) Place an order
