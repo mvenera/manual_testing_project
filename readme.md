@@ -74,7 +74,7 @@ QA tester: Venera Nicolici
 As a result of the revision of the documentation in the static analysis phase, version v2 / 22.02.2023 resulted: [Browsing the Front Store - Placing Orders](https://github.com/mvenera/manual_testing_project/blob/main/Browsing%20the%20Front%20Store%20-%20Placing%20Orders.docx)
 
 The risk analysis highlighted the need to review the UI documentation and meet the deadline, given that the use of the Zephyr Squad tool is only available for a limited time.
-![image](https://github.com/mvenera/manual_testing_project/blob/main/files/Risk%20Chart%20Prisma.png)
+![image](https://github.com/mvenera/manual_testing_project/blob/main/files/images/Risk%20Chart%20Prisma.png)
 
 The entry criterias defined in the Test Planning phase have been achieved and the test process can continue. 
 
@@ -117,6 +117,23 @@ are boundary value analysis and use case testing.
 ![image](https://github.com/mvenera/manual_testing_project/blob/main/files/images/test-cases.png)
 
 
+
+
 The test cases with steps can be viewed here: [test_cases.pdf](https://github.com/mvenera/manual_testing_project/blob/main/files/test-cases.pdf)
 
 For the API, the following checklist was generated:
+
+## 1.5 Test Implementation
+
+The following elements are needed to be ready before the test execution phase begins:
+
+* Testing environment is up and running: https://demo.opencart.com/
+* Access to the testing environment is free
+* Cycle summary was created 
+* Test cases were added to the cycle summary, into the proper folder
+* Postman collection with the bookings API methods was created 
+* Authorization token was created for accessing the API
+
+## 1.6 Test Execution
+
+* Test cases are executed on the created test Cycle summary: [cycle_summary_execution.pdf](https://github.com/mvenera/manual_testing_project/blob/main/files/Cycle_Summary-Executions.pdf)
