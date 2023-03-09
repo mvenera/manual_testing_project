@@ -108,7 +108,7 @@ The testing process will be executed based on the revised requirements for Placi
     11. Check all buttons and links
     12. Check the keyboard special commands: ENTER, TAB, ESC, F5
     
-    ## 1.4 Test Design
+## 1.4 Test Design
 
 Functional test cases were created in Zephyr Squad. Based on the analysis of the specifications, the test design techniques used for generating test cases 
 are boundary value analysis and use case testing.
