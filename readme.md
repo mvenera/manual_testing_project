@@ -72,4 +72,21 @@ QA tester: Venera Nicolici
 #### 1.1.6 Evaluating entry criteria
 
 As a result of the revision of the documentation in the static analysis phase, version v2 / 22.02.2023 resulted: [Browsing the Front Store - Placing Orders](https://github.com/mvenera/manual_testing_project/blob/main/Browsing%20the%20Front%20Store%20-%20Placing%20Orders.docx)
+
+The risk analysis highlighted the need to review the UI documentation and meet the deadline, given that the use of the Zephyr Squad tool is only available for a limited time.
+![image](https://github.com/mvenera/manual_testing_project/blob/main/files/Risk%20Chart%20Prisma.pdf)
+
 The entry criterias defined in the Test Planning phase have been achieved and the test process can continue. 
+
+## 1.2 Test Monitoring and Control
+
+During the testing process, various reports and graphs were developed, in order to have a better visibility of possible delays or problems that could have influenced the testing objectives.
+
+The sprint was set between 19/02/2023 and 11/03/2023.
+
+The following charts and reports are are valid for the status of 03/03/2023:
+![image](https://github.com/mvenera/manual_testing_project/blob/main/files/images/Report%2003.03.2023_OP%20board%20-%20Agile%20board%20-%20Jira.png)
+
+![image](https://github.com/mvenera/manual_testing_project/blob/main/files/images/Issues_03.03.2023_short.png)
+
+![image](https://github.com/mvenera/manual_testing_project/blob/main/files/images/03.03.2023_Test%20View%20By%20Sprint%20-%20Jira.png) 
