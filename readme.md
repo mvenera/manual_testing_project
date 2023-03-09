@@ -120,3 +120,18 @@ are boundary value analysis and use case testing.
 The test cases with steps can be viewed here: [test_cases.pdf](https://github.com/mvenera/manual_testing_project/blob/main/files/test-cases.pdf)
 
 For the API, the following checklist was generated:
+
+## 1.5 Test Implementation
+
+The following elements are needed to be ready before the test execution phase begins:
+
+* Testing environment is up and running: https://demo.opencart.com/
+* Access to the testing environment is free
+* Cycle summary was created 
+* Test cases were added to the cycle summary, into the proper folder
+* Postman collection with the bookings API methods was created 
+* Authorization token was created for accessing the API
+
+## 1.6 Test Execution
+
+* Test cases are executed on the created test Cycle summary: [cycle_summary_execution.pdf](https://github.com/mvenera/manual_testing_project/blob/main/files/Cycle_Summary-Executions.pdf)
