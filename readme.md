@@ -4,7 +4,9 @@ The scope of the final project for ITF Manual Testing Course is to use all gaine
 
 Application under test: https://demo.opencart.com/
 
-API Documentation: http://docs.opencart.com/en-gb/store-front/
+UI Documentation: http://docs.opencart.com/en-gb/store-front/
+
+API Documentation: https://restful-booker.herokuapp.com/apidoc/index.html#api-Booking
 
 **The final project will be split into 2 sections: [Testing section](https://github.com/mvenera/manual_testing_project/README.md#1-testing-section) and [SQL section](https://github.com/mvenera/manual_testing_project/README.md#2-sql-section).**
 
@@ -18,6 +20,7 @@ As a new customer I want to be able to place an order to make an online shopping
 ![image](https://github.com/mvenera/manual_testing_project/blob/main/files/images/epic.png)
 
 Exclusions:
+
 From the Shopping cart page:
 * Estimate Shipping & Taxes
 * Use Coupon Code
@@ -37,6 +40,7 @@ The plan identifies the items to be tested, the features to be tested, the types
 #### 1.1.1 Roles assigned to the project and persons allocated
 
 Review UI documentation: Venera Nicolici
+
 QA tester: Venera Nicolici
 
 #### 1.1.2 Entry criteria defined
