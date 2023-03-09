@@ -74,7 +74,7 @@ QA tester: Venera Nicolici
 As a result of the revision of the documentation in the static analysis phase, version v2 / 22.02.2023 resulted: [Browsing the Front Store - Placing Orders](https://github.com/mvenera/manual_testing_project/blob/main/Browsing%20the%20Front%20Store%20-%20Placing%20Orders.docx)
 
 The risk analysis highlighted the need to review the UI documentation and meet the deadline, given that the use of the Zephyr Squad tool is only available for a limited time.
-![image](https://github.com/mvenera/manual_testing_project/blob/main/files/Risk%20Chart%20Prisma.png)
+![image](https://github.com/mvenera/manual_testing_project/blob/main/files/images/Risk%20Chart%20Prisma.png)
 
 The entry criterias defined in the Test Planning phase have been achieved and the test process can continue. 
 
