@@ -112,10 +112,12 @@ The testing process will be executed based on the revised requirements for Placi
 ## 1.4 Test Design
 
 Functional test cases were created in Zephyr Squad. Based on the analysis of the specifications, the test design techniques used for generating test cases 
-are boundary value analysis and use case testing.
+are boundary value analysis and use case testing, with positive and negative testing types.
 
 **Test cases:**
-![image](https://github.com/mvenera/manual_testing_project/blob/main/files/images/test-cases.png)
+
+![image](https://github.com/mvenera/manual_testing_project/blob/main/files/images/test_cases.png)
+
 The test cases with steps can be viewed here: [test-cases.pdf](https://github.com/mvenera/manual_testing_project/blob/main/files/test-cases.pdf)
 
 For the API, the following checklist was generated:
