@@ -96,18 +96,18 @@ The following charts and reports are are valid for the status of 03/03/2023:
 
 The testing process will be executed based on the revised requirements for Placing Order on OpenCart. The following test conditions were found:
 
-    1. Add products to cart and check if shopping cart is correct updated
-    2. Enter an invalid product quantity and check if the shopping cart is updated
-    3. Check if modifying the quantity or deleting a product in shopping cart updates the shopping cart
-    4. Check if returning to another menu category does change the data in shopping cart 
-    5. Enter data in all mandatory fields and check if the order is placed
-    6. Enter data in all fields and check if the order is placed
-    7. Enter invalid data in every field and check the future actions
-    8. Check if all the calculations are correct: VAT, Eco Tax, Flat Rate
-    9. Check all mandatory fields
-    10. Check other field constraints
-    11. Check all buttons and links
-    12. Check the keyboard special commands: ENTER, TAB, ESC, F5
+* 1. Add products to cart and check if shopping cart is correct updated
+* 2. Enter an invalid product quantity and check if the shopping cart is updated
+* 3. Check if modifying the quantity or deleting a product in shopping cart updates the shopping cart
+* 4. Check if returning to another menu category does change the data in shopping cart 
+* 5. Enter data in all mandatory fields and check if the order is placed
+* 6. Enter data in all fields and check if the order is placed
+* 7. Enter invalid data in every field and check the future actions
+* 8. Check if all the calculations are correct: VAT, Eco Tax, Flat Rate
+* 9. Check all mandatory fields
+* 10. Check other field constraints
+* 11. Check all buttons and links
+* 12. Check the keyboard special commands: ENTER, TAB, ESC, F5
     
 ## 1.4 Test Design
 
