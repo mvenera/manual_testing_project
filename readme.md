@@ -75,7 +75,7 @@ As a result of the revision of the documentation in the static analysis phase, v
 
 The risk analysis highlighted the need to review the UI documentation and meet the deadline, given that the use of the Zephyr Squad tool is only available for a limited time.
 
-![image](https://github.com/mvenera/manual_testing_project/blob/main/files/images/chart_Prisma.png)
+![image](https://github.com/mvenera/manual_testing_project/blob/main/files/images/risk_chart_Prisma.png)
 
 The entry criterias defined in the Test Planning phase have been achieved and the test process can continue. 
 
