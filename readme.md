@@ -150,3 +150,16 @@ The following elements are needed to be ready before the test execution phase be
     *  [Invalid data] Validation message of a product added to cart, when a decimal number is entered for quantity
     *  [Invalid data] Product added to cart when a decimal number is entered for quantity
     *  [Mandatory field] No value in "Qty" field returns a validation message
+
+* API tests are executed based on the checklist. The collection used can be found here: [JSON file with the collection of requests created for Booking API](.....................)
+* Full regression testing is needed after the bugs are fixed
+
+## 1.7 Test Completion
+
+
+* As the Exit criteria were met and satisfied as mentioned in the appropriate section, this feature is suggested to ‘Go Live’ by the Testing team
+* The traceability matrix was generated and can be found here: ![image](https://github.com/mvenera/manual_testing_project/blob/main/files/images/traceability%20matrix.png)
+* Test execution chart was generated, the final report shows that a number 12 tests have failed of a total of 70 (~ 17%): ![image](https://github.com/mvenera/manual_testing_project/blob/main/files/images/test-chart.png) 
+* A number of 70 test cases were planned for execution and all of them were executed
+* A number of 15 total bugs were found, from which 1 is resolved; the priority is: 1 is high, 10 are medium, 3 are low, and 1 is lowest
+![image](https://github.com/mvenera/manual_testing_project/blob/main/files/images/chart-bugs.png)
