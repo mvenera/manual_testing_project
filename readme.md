@@ -8,7 +8,7 @@ UI Documentation: http://docs.opencart.com/en-gb/store-front/
 
 API Documentation: https://restful-booker.herokuapp.com/apidoc/index.html#api-Booking
 
-**The final project will be split into 2 sections: [Testing section](https://github.com/mvenera/manual_testing_project/edit/main/readme.md#1-testing-section) and [SQL section](https://github.com/mvenera/manual_testing_project/README.md#2-sql-section).**
+**The final project will be split into 2 sections: [Testing section](https://github.com/mvenera/manual_testing_project#1-testing-section) and [SQL section](https://github.com/mvenera/manual_testing_project/README.md#2-sql-section).**
 
 Tools used: JIRA, Zephyr Squad, Postman, MySQL Workbench.
 
