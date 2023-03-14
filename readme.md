@@ -173,3 +173,8 @@ The following elements are needed to be ready before the test execution phase be
 
 Not all issues are resolved, so a new sprint would be started, in order to closed these issues.
 ![image](https://github.com/mvenera/manual_testing_project/blob/main/files/images/issue_by_status.png)
+
+# 2 SQL section
+
+Created a database named 'orangehrm' and a table named 'dependents' with all the columns needed to save data per specifications. Performed different queries inside the sql file: [dependents.sql](https://github.com/julai215/itf_final_project_example_and_portofolio/blob/main/Final%20Project/dependents.sql)
+
