@@ -96,18 +96,18 @@ The following charts and reports are are valid for the status of 03/03/2023:
 
 The testing process will be executed based on the revised requirements for Placing Order on OpenCart. The following test conditions were found:
 
-    1. Add products to cart and check if shopping cart is correct updated
-    2. Enter an invalid product quantity and check if the shopping cart is updated
-    3. Check if modifying the quantity or deleting a product in shopping cart updates the shopping cart
-    4. Check if returning to another menu category does change the data in shopping cart 
-    5. Enter data in all mandatory fields and check if the order is placed
-    6. Enter data in all fields and check if the order is placed
-    7. Enter invalid data in every field and check the future actions
-    8. Check if all the calculations are correct: VAT, Eco Tax, Flat Rate
-    9. Check all mandatory fields
-    10. Check other field constraints
-    11. Check all buttons and links
-    12. Check the keyboard special commands: ENTER, TAB, ESC, F5
+* Add products to cart and check if shopping cart is correct updated
+* Enter an invalid product quantity and check if the shopping cart is updated
+* Check if modifying the quantity or deleting a product in shopping cart updates the shopping cart
+* Check if returning to another menu category does change the data in shopping cart 
+* Enter data in all mandatory fields and check if the order is placed
+* Enter data in all fields and check if the order is placed
+* Enter invalid data in every field and check the future actions
+* Check if all the calculations are correct: VAT, Eco Tax, Flat Rate
+* Check all mandatory fields
+* Check other field constraints
+* Check all buttons and links
+* Check the keyboard special commands: ENTER, TAB, ESC, F5
     
 ## 1.4 Test Design
 
@@ -162,9 +162,14 @@ The following elements are needed to be ready before the test execution phase be
 * As the Exit criteria were met and satisfied as mentioned in the appropriate section, this feature is suggested to ‘Go Live’ by the Testing team
 * The traceability matrix was generated and can be found here: ![image](https://github.com/mvenera/manual_testing_project/blob/main/files/images/traceability%20matrix.png)
 * Test execution chart was generated, the final report shows that a number 12 tests have failed of a total of 70 (~ 17%): 
-![image](https://github.com/mvenera/manual_testing_project/blob/main/files/images/test_chart.png) 
+
+![image](https://github.com/mvenera/manual_testing_project/blob/main/files/images/Test_Execution-Jira.png) 
 ![image](https://github.com/mvenera/manual_testing_project/blob/main/files/images/test-cases_fail_pass.png) 
+![image](https://github.com/mvenera/manual_testing_project/blob/main/files/images/Issue_type.png)
 * A number of 70 test cases were planned for execution and all of them were executed
 * A number of 15 total bugs were found, from which 1 is resolved; the priority is: 1 is high, 10 are medium, 3 are low, and 1 is lowest
 
 ![image](https://github.com/mvenera/manual_testing_project/blob/main/files/images/chart-bug.png)
+
+Not all issues are resolved, so a new sprint would be started, in order to closed these issues.
+![image](https://github.com/mvenera/manual_testing_project/blob/main/files/images/issue_by_status.png)
