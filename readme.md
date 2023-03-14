@@ -153,7 +153,7 @@ The following elements are needed to be ready before the test execution phase be
     *  [Invalid data] Product added to cart when a decimal number is entered for quantity
     *  [Mandatory field] No value in "Qty" field returns a validation message
 
-* API tests are executed based on the checklist. The collection used can be found here: [JSON file with the collection of requests created for Booking API](.....................)
+* API tests are executed based on the checklist. The collection used can be found here: [JSON file with the collection of requests created for Restful-Booker API](https://github.com/mvenera/manual_testing_project/blob/main/files/Booking%20-%20Restful-booker.postman_collection.json)
 * Full regression testing is needed after the bugs are fixed
 
 ## 1.7 Test Completion
