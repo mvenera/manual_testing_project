@@ -120,7 +120,7 @@ are boundary value analysis and use case testing, with positive and negative tes
 
 The test cases with steps can be viewed here: [test-cases.pdf](https://github.com/mvenera/manual_testing_project/blob/main/files/test-cases.pdf)
 
-For the API, the following checklist was generated:
+For the API, the following checklist was generated: [Checklist API](https://github.com/mvenera/manual_testing_project/blob/main/files/List%20tests%20API.pdf)
 
 ## 1.5 Test Implementation
 
@@ -153,7 +153,7 @@ The following elements are needed to be ready before the test execution phase be
     *  [Invalid data] Product added to cart when a decimal number is entered for quantity
     *  [Mandatory field] No value in "Qty" field returns a validation message
 
-* API tests are executed based on the checklist. The collection used can be found here: [JSON file with the collection of requests created for Restful-Booker API](https://github.com/mvenera/manual_testing_project/blob/main/files/Booking%20-%20Restful-booker.postman_collection.json). The checklist with API test is available here: [Checklist API](https://github.com/mvenera/manual_testing_project/blob/main/files/List%20tests%20API.pdf)
+* API tests are executed based on the checklist. The collection used can be found here: [JSON file with the collection of requests created for Restful-Booker API](https://github.com/mvenera/manual_testing_project/blob/main/files/Booking%20-%20Restful-booker.postman_collection.json). 
 * Full regression testing is needed after the bugs are fixed
 
 ## 1.7 Test Completion
@@ -168,12 +168,13 @@ The following elements are needed to be ready before the test execution phase be
 ![image](https://github.com/mvenera/manual_testing_project/blob/main/files/images/Issue_type.png)
 * A number of 70 test cases were planned for execution and all of them were executed
 * A number of 15 total bugs were found, from which 1 is resolved; the priority is: 1 is high, 10 are medium, 3 are low, and 1 is lowest
-* For API was found 1 bug, with low priority (see here the [bug report](https://github.com/mvenera/manual_testing_project/blob/main/files/bug_API.png)
 
 ![image](https://github.com/mvenera/manual_testing_project/blob/main/files/images/chart-bug.png)
 
 Not all issues are resolved, so a new sprint would be started, in order to closed these issues.
 ![image](https://github.com/mvenera/manual_testing_project/blob/main/files/images/issue_by_status.png)
+
+* For API was found 1 bug, with low priority (see here the [bug report](https://github.com/mvenera/manual_testing_project/blob/main/files/bug_API.png)
 
 # 2 SQL section
 
