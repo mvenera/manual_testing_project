@@ -8,7 +8,7 @@ UI Documentation: http://docs.opencart.com/en-gb/store-front/
 
 API Documentation: https://restful-booker.herokuapp.com/apidoc/index.html#api-Booking
 
-**The final project will be split into 2 sections: [Testing section](https://github.com/mvenera/manual_testing_project/README.md#1-testing-section) and [SQL section](https://github.com/mvenera/manual_testing_project/README.md#2-sql-section).**
+**The final project will be split into 2 sections: [Testing section](https://github.com/mvenera/manual_testing_project#1-testing-section) and [SQL section](https://github.com/mvenera/manual_testing_project/blob/main/readme.md#2-sql-section).**
 
 Tools used: JIRA, Zephyr Squad, Postman, MySQL Workbench.
 
@@ -153,7 +153,7 @@ The following elements are needed to be ready before the test execution phase be
     *  [Invalid data] Product added to cart when a decimal number is entered for quantity
     *  [Mandatory field] No value in "Qty" field returns a validation message
 
-* API tests are executed based on the checklist. The collection used can be found here: [JSON file with the collection of requests created for Booking API](.....................)
+* API tests are executed based on the checklist. The collection used can be found here: [JSON file with the collection of requests created for Restful-Booker API](https://github.com/mvenera/manual_testing_project/blob/main/files/Booking%20-%20Restful-booker.postman_collection.json)
 * Full regression testing is needed after the bugs are fixed
 
 ## 1.7 Test Completion
@@ -173,3 +173,8 @@ The following elements are needed to be ready before the test execution phase be
 
 Not all issues are resolved, so a new sprint would be started, in order to closed these issues.
 ![image](https://github.com/mvenera/manual_testing_project/blob/main/files/images/issue_by_status.png)
+
+# 2 SQL section
+
+Created a database named 'orangehrm' and a table named 'dependents' with all the columns needed to save data per specifications. Performed different queries inside the sql file: [dependents.sql](https://github.com/julai215/itf_final_project_example_and_portofolio/blob/main/Final%20Project/dependents.sql)
+
