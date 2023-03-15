@@ -126,7 +126,7 @@ For the API, the following checklist was generated: [Checklist API](https://gith
 
 The following elements are needed to be ready before the test execution phase begins:
 
-* Testing environment is up and running: https://demo.opencart.com/
+* Testing environment is up and running: https://demo.opencart.com/ and https://restful-booker.herokuapp.com
 * Access to the testing environment is free
 * Cycle summary was created 
 * Test cases were added to the cycle summary, into the proper folder
@@ -174,7 +174,7 @@ The following elements are needed to be ready before the test execution phase be
 Not all issues are resolved, so a new sprint would be started, in order to closed these issues.
 ![image](https://github.com/mvenera/manual_testing_project/blob/main/files/images/issue_by_status.png)
 
-* For API was found 1 bug, with low priority (see here the [bug report](https://github.com/mvenera/manual_testing_project/blob/main/files/bug_API.png)
+* For API was found 1 bug, with low priority (see here the [bug report](https://github.com/mvenera/manual_testing_project/blob/main/files/bug_API.png) )
 
 # 2 SQL section
 
