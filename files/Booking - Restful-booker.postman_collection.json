@@ -296,57 +296,6 @@
 			"response": []
 		},
 		{
-			"name": "Add (create) new booking Copy",
-			"event": [
-				{
-					"listen": "test",
-					"script": {
-						"exec": [
-							"pm.test(\"Status code is 200\", function () {",
-							"    pm.response.to.have.status(200);",
-							"});",
-							"",
-							"pm.test(\"Response time is less than 300ms\", function () {",
-							"    pm.expect(pm.response.responseTime).to.be.below(300);",
-							"});",
-							"",
-							"pm.test(\"Bookig Id created\", function () {",
-							"    var jsonData = pm.response.json();",
-							"    pm.expect(jsonData.bookingid).to.greaterThan(0);",
-							"});",
-							"",
-							"var jsonData = pm.response.json();",
-							"pm.environment.set(\"booking_id\", `${jsonData.bookingid}`);"
-						],
-						"type": "text/javascript"
-					}
-				}
-			],
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\n        \"firstname\": \"Ana\",\n        \"lastname\": \"Bush\",\n        \"totalprice\": 140,\n        \"depositpaid\": true,\n        \"bookingdates\": {\n            \"checkin\": \"2023-03-03\",\n            \"checkout\": \"2023-03-05\"\n    },\n    \"additionalneeds\": \"pool\"\n}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": {
-					"raw": "{{url}}/booking",
-					"host": [
-						"{{url}}"
-					],
-					"path": [
-						"booking"
-					]
-				}
-			},
-			"response": []
-		},
-		{
 			"name": "Find booking by ID",
 			"event": [
 				{
@@ -965,7 +914,9 @@
 							"    pm.response.to.have.status(404);",
 							"});",
 							"",
-							""
+							"pm.test(\"The booking is not found\", function () {",
+							"    pm.response.to.have.body(\"Not Found\");",
+							"});"
 						],
 						"type": "text/javascript"
 					}
