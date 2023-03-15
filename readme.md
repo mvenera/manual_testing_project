@@ -153,14 +153,14 @@ The following elements are needed to be ready before the test execution phase be
     *  [Invalid data] Product added to cart when a decimal number is entered for quantity
     *  [Mandatory field] No value in "Qty" field returns a validation message
 
-* API tests are executed based on the checklist. The collection used can be found here: [JSON file with the collection of requests created for Restful-Booker API](https://github.com/mvenera/manual_testing_project/blob/main/files/Booking%20-%20Restful-booker.postman_collection.json)
+* API tests are executed based on the checklist. The collection used can be found here: [JSON file with the collection of requests created for Restful-Booker API](https://github.com/mvenera/manual_testing_project/blob/main/files/Booking%20-%20Restful-booker.postman_collection.json). The checklist with API test is available here: [Checklist API](https://github.com/mvenera/manual_testing_project/blob/main/files/List%20tests%20API.pdf)
 * Full regression testing is needed after the bugs are fixed
 
 ## 1.7 Test Completion
 
 
 * As the Exit criteria were met and satisfied as mentioned in the appropriate section, this feature is suggested to ‘Go Live’ by the Testing team
-* The traceability matrix was generated and can be found here: ![image](https://github.com/mvenera/manual_testing_project/blob/main/files/images/traceability%20matrix.png)
+* The traceability matrix was generated and can be found here: for UI ![image](https://github.com/mvenera/manual_testing_project/blob/main/files/images/traceability%20matrix.png) and for API ![image](https://github.com/mvenera/manual_testing_project/blob/main/files/images/Traceability_API.png)
 * Test execution chart was generated, the final report shows that a number 12 tests have failed of a total of 70 (~ 17%): 
 
 ![image](https://github.com/mvenera/manual_testing_project/blob/main/files/images/Test_Execution-Jira.png) 
@@ -168,6 +168,7 @@ The following elements are needed to be ready before the test execution phase be
 ![image](https://github.com/mvenera/manual_testing_project/blob/main/files/images/Issue_type.png)
 * A number of 70 test cases were planned for execution and all of them were executed
 * A number of 15 total bugs were found, from which 1 is resolved; the priority is: 1 is high, 10 are medium, 3 are low, and 1 is lowest
+* For API was found 1 bug, with low priority (see here the [bug report](https://github.com/mvenera/manual_testing_project/blob/main/files/bug_API.png)
 
 ![image](https://github.com/mvenera/manual_testing_project/blob/main/files/images/chart-bug.png)
 
