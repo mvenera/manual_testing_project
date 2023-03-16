@@ -135,7 +135,8 @@ The following elements are needed to be ready before the test execution phase be
 
 ## 1.6 Test Execution
 
-* Test cases are executed on the created test Cycle summary: [cycle_summary_execution.pdf](https://github.com/mvenera/manual_testing_project/blob/main/files/Cycle_Summary-Executions.pdf)
+* Test cases for UI are executed on the created test Cycle summary: [cycle_summary_execution.pdf](https://github.com/mvenera/manual_testing_project/blob/main/files/Cycle_Summary-Executions.pdf)
+* Test execution for API is visible on this [Collection run](https://github.com/mvenera/manual_testing_project/blob/main/files/test%20execution_API.png)
 * Bugs have been created based on the failed tests, plus one for reviewing the specifications. The complete bug reports can be found here: [created_bugs.pdf](https://github.com/mvenera/manual_testing_project/blob/main/files/BUGS.pdf)
     *  [Specifications] The documentation is not clear and complete
     *  [Data] For "Guest checkout" option, the "Continue" button does not save the account when all fields are completed
