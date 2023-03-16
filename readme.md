@@ -179,5 +179,5 @@ Not all issues are resolved, so a new sprint would be started, in order to close
 
 # 2 SQL section
 
-Created a database named 'orangehrm' and a table named 'dependents' with all the columns needed to save data per specifications. Performed different queries inside the sql file: [dependents.sql](https://github.com/julai215/itf_final_project_example_and_portofolio/blob/main/Final%20Project/dependents.sql)
+I ahve created a database named 'Varan' with 4 tables named 'Clienti', 'Comenzi', 'Produse' and 'ProduseComandate' with all the columns needed to save data about orders made by clients on a sell application. I have performed different queries inside the sql file: [DB_Varan](https://github.com/mvenera/manual_testing_project/blob/main/files/BD%20Varan.sql))
 
