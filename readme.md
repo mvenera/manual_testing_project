@@ -120,13 +120,13 @@ are boundary value analysis and use case testing, with positive and negative tes
 
 The test cases with steps can be viewed here: [test-cases.pdf](https://github.com/mvenera/manual_testing_project/blob/main/files/test-cases.pdf)
 
-For the API, the following checklist was generated:
+For the API, the following checklist was generated: [Checklist API](https://github.com/mvenera/manual_testing_project/blob/main/files/List%20tests%20API.pdf)
 
 ## 1.5 Test Implementation
 
 The following elements are needed to be ready before the test execution phase begins:
 
-* Testing environment is up and running: https://demo.opencart.com/
+* Testing environment is up and running: https://demo.opencart.com/ and https://restful-booker.herokuapp.com
 * Access to the testing environment is free
 * Cycle summary was created 
 * Test cases were added to the cycle summary, into the proper folder
@@ -153,14 +153,14 @@ The following elements are needed to be ready before the test execution phase be
     *  [Invalid data] Product added to cart when a decimal number is entered for quantity
     *  [Mandatory field] No value in "Qty" field returns a validation message
 
-* API tests are executed based on the checklist. The collection used can be found here: [JSON file with the collection of requests created for Restful-Booker API](https://github.com/mvenera/manual_testing_project/blob/main/files/Booking%20-%20Restful-booker.postman_collection.json)
+* API tests are executed based on the checklist. The collection used can be found here: [JSON file with the collection of requests created for Restful-Booker API](https://github.com/mvenera/manual_testing_project/blob/main/files/Booking%20-%20Restful-booker.postman_collection.json). 
 * Full regression testing is needed after the bugs are fixed
 
 ## 1.7 Test Completion
 
 
 * As the Exit criteria were met and satisfied as mentioned in the appropriate section, this feature is suggested to ‘Go Live’ by the Testing team
-* The traceability matrix was generated and can be found here: ![image](https://github.com/mvenera/manual_testing_project/blob/main/files/images/traceability%20matrix.png)
+* The traceability matrix was generated and can be found here: for UI ![image](https://github.com/mvenera/manual_testing_project/blob/main/files/images/traceability%20matrix.png) and for API ![image](https://github.com/mvenera/manual_testing_project/blob/main/files/images/Traceability_API.png)
 * Test execution chart was generated, the final report shows that a number 12 tests have failed of a total of 70 (~ 17%): 
 
 ![image](https://github.com/mvenera/manual_testing_project/blob/main/files/images/Test_Execution-Jira.png) 
@@ -173,6 +173,8 @@ The following elements are needed to be ready before the test execution phase be
 
 Not all issues are resolved, so a new sprint would be started, in order to closed these issues.
 ![image](https://github.com/mvenera/manual_testing_project/blob/main/files/images/issue_by_status.png)
+
+* For API was found 1 bug, with low priority (see here the [bug report](https://github.com/mvenera/manual_testing_project/blob/main/files/bug_API.png) )
 
 # 2 SQL section
 
