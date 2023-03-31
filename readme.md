@@ -115,8 +115,7 @@ Functional test cases were created in Zephyr Squad. Based on the analysis of the
 are boundary value analysis and use case testing, with positive and negative testing types.
 
 **Test cases:**
-
-[test case_all.pdf](https://github.com/mvenera/manual_testing_project/blob/main/files/test%20case_all.pdf)
+![image](https://github.com/mvenera/manual_testing_project/blob/main/files/images/test-case_all.png)
 
 The test cases with steps can be viewed here: [test-cases.pdf](https://github.com/mvenera/manual_testing_project/blob/main/files/test-cases.pdf)
 
