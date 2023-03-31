@@ -138,21 +138,7 @@ The following elements are needed to be ready before the test execution phase be
 * Test cases for UI are executed on the created test Cycle summary: [cycle_summary_execution.pdf](https://github.com/mvenera/manual_testing_project/blob/main/files/Cycle_Summary-Executions.pdf)
 * Test execution for API is visible on this [Collection run](https://github.com/mvenera/manual_testing_project/blob/main/files/test%20execution_API.png)
 * Bugs have been created based on the failed tests, plus one for reviewing the specifications. The complete bug reports can be found here: [created_bugs.pdf](https://github.com/mvenera/manual_testing_project/blob/main/files/BUGS.pdf)
-    *  [Specifications] The documentation is not clear and complete
-    *  [Data] For "Guest checkout" option, the "Continue" button does not save the account when all fields are completed
-    *  [Data] For "Guest checkout" option, the "Continue" button does not save the account when all mandatory fields are completed
-    *  [Data] "Password" field does not accept maximum 20 characters
-    *  [Data] "City" field does not accept maximum 128 characters
-    *  [Data] "Address 1" field does not accept 128 characters, containing special characters
-    *  [UI] The shopping cart black button has invisible text when mouse hover
-    *  [Invalid data] Validation message when "0" value is entered for quantity
-    *  [Invalid data] The product is added to cart even when the delivery date is in the past
-    *  [Invalid data] Validation message when special characters are entered for quantity
-    *  [Invalid data] Validation message when letters are entered for quantity
-    *  [Invalid data] Validation message when add to cart a product with negative quantity
-    *  [Invalid data] Validation message of a product added to cart, when a decimal number is entered for quantity
-    *  [Invalid data] Product added to cart when a decimal number is entered for quantity
-    *  [Mandatory field] No value in "Qty" field returns a validation message
+![image](https://github.com/mvenera/manual_testing_project/blob/main/files/images/bugList.png)
 
 * API tests are executed based on the checklist. The collection used can be found here: [JSON file with the collection of requests created for Restful-Booker API](https://github.com/mvenera/manual_testing_project/blob/main/files/Booking%20-%20Restful-booker.postman_collection.json). 
 * Full regression testing is needed after the bugs are fixed
