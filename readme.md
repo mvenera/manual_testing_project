@@ -147,7 +147,7 @@ The following elements are needed to be ready before the test execution phase be
 
 
 * As the Exit criteria were met and satisfied as mentioned in the appropriate section, this feature is suggested to ‘Go Live’ by the Testing team
-* The traceability matrix was generated and can be found here: for UI ![image](https://github.com/mvenera/manual_testing_project/blob/main/files/images/traceability%20matrix.png) and for API ![image](https://github.com/mvenera/manual_testing_project/blob/main/files/images/Traceability_API.png)
+* The traceability matrix was generated and can be found here, both for UI and for API testing: ![image](https://github.com/mvenera/manual_testing_project/blob/main/files/images/traceability.png) 
 * Test execution chart was generated, the final report shows that a number 12 tests have failed of a total of 70 (~ 17%): 
 
 ![image](https://github.com/mvenera/manual_testing_project/blob/main/files/images/Test_Execution-Jira.png) 
