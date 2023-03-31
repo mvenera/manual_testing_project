@@ -116,7 +116,7 @@ are boundary value analysis and use case testing, with positive and negative tes
 
 **Test cases:**
 
-[test case_all.pdf](https://github.com/mvenera/manual_testing_project/blob/main/files/images/test_cases.png)
+[test case_all.pdf](https://github.com/mvenera/manual_testing_project/blob/main/files/test%20case_all.pdf)
 
 The test cases with steps can be viewed here: [test-cases.pdf](https://github.com/mvenera/manual_testing_project/blob/main/files/test-cases.pdf)
 
