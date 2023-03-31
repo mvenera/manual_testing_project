@@ -96,7 +96,7 @@ The following charts and reports are are valid for the status of 03/03/2023:
 
 The testing process will be executed based on the revised requirements for Placing Order on OpenCart. The following test conditions were found:
 
-*   1. Add products to cart and check if shopping cart is correct updated
+ 1. Add products to cart and check if shopping cart is correct updated
     2. Enter an invalid product quantity and check if the shopping cart is updated
     3. Check that modifying the quantity or deleting a product in shopping cart updates the shopping cart
     4. Check that returning to another menu category does not change the data in shopping cart 
