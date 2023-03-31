@@ -152,7 +152,7 @@ The following elements are needed to be ready before the test execution phase be
 
 ![image](https://github.com/mvenera/manual_testing_project/blob/main/files/images/Test_Execution-Jira.png) 
 ![image](https://github.com/mvenera/manual_testing_project/blob/main/files/images/test-cases_fail_pass.png) 
-![image](https://github.com/mvenera/manual_testing_project/blob/main/files/images/Issue_type.png)
+![image](https://github.com/mvenera/manual_testing_project/blob/main/files/images/issue_type.png)
 * A number of 70 test cases were planned for execution and all of them were executed
 * A number of 15 total bugs were found, from which 1 is resolved; the priority is: 1 is high, 10 are medium, 3 are low, and 1 is lowest
 
