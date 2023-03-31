@@ -137,7 +137,7 @@ The following elements are needed to be ready before the test execution phase be
 
 * Test cases for UI are executed on the created test Cycle summary: [cycle_summary_execution.pdf](https://github.com/mvenera/manual_testing_project/blob/main/files/Cycle_Summary-Executions.pdf)
 * Test execution for API is visible on this [Collection run](https://github.com/mvenera/manual_testing_project/blob/main/files/test%20execution_API.png)
-* Bugs have been created based on the failed tests, plus one for reviewing the specifications. The complete bug reports can be found here: [created_bugs.pdf](https://github.com/mvenera/manual_testing_project/blob/main/files/BUGS.pdf)
+* Bugs have been created based on the failed tests, plus one for reviewing the specifications. The complete bug reports can be found here: [created_bugs.pdf](https://github.com/mvenera/manual_testing_project/blob/main/files/bugsDetails.pdf)
 ![image](https://github.com/mvenera/manual_testing_project/blob/main/files/images/bugList.png)
 
 * API tests are executed based on the checklist. The collection used can be found here: [JSON file with the collection of requests created for Restful-Booker API](https://github.com/mvenera/manual_testing_project/blob/main/files/Booking%20-%20Restful-booker.postman_collection.json). 
