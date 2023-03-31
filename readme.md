@@ -159,7 +159,7 @@ The following elements are needed to be ready before the test execution phase be
 ![image](https://github.com/mvenera/manual_testing_project/blob/main/files/images/chart-bug.png)
 
 Not all issues are resolved, so a new sprint would be started, in order to closed these issues.
-![image](https://github.com/mvenera/manual_testing_project/blob/main/files/images/issue_by_status.png)
+![image](https://github.com/mvenera/manual_testing_project/blob/main/files/images/status.png)
 
 * For API was found 1 bug, with low priority (see here the [bug report](https://github.com/mvenera/manual_testing_project/blob/main/files/bug_API.png) )
 
