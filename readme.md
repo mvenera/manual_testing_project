@@ -117,7 +117,8 @@ are boundary value analysis and use case testing, with positive and negative tes
 **Test cases:**
 ![image](https://github.com/mvenera/manual_testing_project/blob/main/files/images/test-case_all.png)
 
-The test cases with steps can be viewed here: [test-cases.pdf](https://github.com/mvenera/manual_testing_project/blob/main/files/test-cases.pdf)
+
+The test cases with steps can be viewed here: [test-cases.pdf](https://github.com/mvenera/manual_testing_project/blob/main/files/testCasesDetails.pdf)
 
 For the API, the following checklist was generated: [Checklist API](https://github.com/mvenera/manual_testing_project/blob/main/files/List%20tests%20API.pdf)
 
